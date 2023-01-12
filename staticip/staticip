@@ -1,0 +1,8 @@
+# Script to automatically change the static IP on ubuntu systems
+# with a simple script.
+#!/bin/bash
+echo Enter the static IP address:
+read staticip
+sed 's/192.168.1.1/$staticip' example.yml
+# mv /etc/netplan/00-installer-config.yaml 00-installer-config.yaml.BACKUP
+# mv example.yml /etc/netplan/00-installer-config.yaml

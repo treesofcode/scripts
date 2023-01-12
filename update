@@ -1,0 +1,7 @@
+# script to update automatically.
+
+sudo apt update -y
+
+sudo apt upgrade -y
+
+

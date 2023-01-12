@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Welcome to the easyssh setup.
+
+Please enter the title for the new connection: "
+
+read title1
+
+

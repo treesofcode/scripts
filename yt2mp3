@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Enter the URL of the video you would like to download: "
+
+read URL
+
+youtube-dl -o /home/user/music --extract-audio --audio-format mp3 $URL

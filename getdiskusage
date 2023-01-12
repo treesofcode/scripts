@@ -1,0 +1,5 @@
+#!/bin/bash
+
+usage="$(df -H | sed -n '2p' | awk '{print $5'} | tr -d '%')"
+echo "$usage%"
+

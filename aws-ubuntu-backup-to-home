@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This is a script for backing up my aws-instance into the home folder of
+# my chromebook/linux machine. I'd like it set up so that it goes directly to 
+# my server, will work on that...
+
+sudo scp -r -i /home/user/data/ubuntu.pem ubuntu@18.190.95.234:/home /home/user/awsbackup
+
+
